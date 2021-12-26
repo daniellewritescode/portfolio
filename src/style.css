@@ -20,3 +20,12 @@ h1,h2,h3 {
 @media (max-width: 575.98px) { 
     
 }
+
+.mobileView {
+    display: none;
+  }
+  @include media-breakpoint-up(sm) {
+    .mobileView {
+      display: block;
+    }
+  }
